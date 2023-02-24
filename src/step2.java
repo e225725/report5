@@ -8,7 +8,8 @@ public class step2 {
         try{
             System.out.println(test.length());
         }catch(java.lang.NullPointerException exception){
-            System.out.println(exception.getMessage()+"が発生しています");
+            System.out.println(exception.getMessage());
+            System.out.println("NullPointerEeceptionが発生しています");
         }
     }
 }
